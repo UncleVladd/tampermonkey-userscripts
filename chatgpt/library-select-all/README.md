@@ -19,11 +19,17 @@ It selects only files currently loaded on the page. It does not delete files aut
 1. Open ChatGPT Library.
 2. Click **Select current view**.
 3. Review the selected files.
-4. Click ChatGPT’s native **Delete** button.
+4. Click ChatGPT's native **Delete** button if deletion is intended.
 
 Use **Clear selection** to deselect the files.
 
-Files that have not yet loaded will not be selected. Scroll down to load more files, then click **Select current view** again.
+Files that have not loaded will not be selected. Scroll down to load more files, then click **Select current view** again.
+
+## Limitations
+
+- The script depends on ChatGPT's current page structure and may need updates after UI changes.
+- Only visible, rendered file checkboxes are selected.
+- The script does not delete files or bypass ChatGPT confirmation dialogs.
 
 ## Disclaimer
 
